@@ -496,15 +496,15 @@ export default function ResultPage() {
             <div className="w-32 h-32 rounded-xl overflow-hidden border border-white/[0.08] bg-white">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/qrcode-maoxiceo.jpg"
-                alt="猫系CEO 公众号二维码"
+                src="/qrcode-placeholder.svg"
+                alt="公众号二维码（即将上线）"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
           <p className="text-[#3a3835] text-[11px] tracking-wide">
-            微信扫码 · 长按识别
+            公众号二维码即将上线
           </p>
         </motion.div>
 
