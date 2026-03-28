@@ -351,10 +351,10 @@ export const questions: Question[] = [
     ariaMessage: '如果你突然消失两周、完全失联，你的团队会怎样？',
     type: 'single',
     options: [
-      { value: 'no_impact', label: '没什么影响，别人能覆盖',   emoji: '😐' },
-      { value: 'messy',     label: '有点乱，但能撑过去',       emoji: '😅' },
-      { value: 'blocked',   label: '明显受阻，几个项目卡住',   emoji: '😬' },
-      { value: 'stop',      label: '某些关键事情直接停摆',     emoji: '🚨' },
+      { value: 'no_impact', label: '没人发现——包括我的直属领导',   emoji: '😶' },
+      { value: 'messy',     label: '有点乱，但同事们扛过去了',     emoji: '😅' },
+      { value: 'blocked',   label: '几个项目卡住，等我回来解锁',   emoji: '😬' },
+      { value: 'stop',      label: '某些事直接停了，只有我能处理', emoji: '🚨' },
     ],
   },
 
@@ -388,10 +388,10 @@ export const questions: Question[] = [
     ariaMessage: '你感受到的公司对 AI 的实际态度是？',
     type: 'single',
     options: [
-      { value: 'nothing', label: '几乎没动静，没提上日程',     emoji: '😴' },
-      { value: 'talk',    label: '口头谈过，还在观望',         emoji: '💬' },
-      { value: 'pilot',   label: '已有试点项目在跑',           emoji: '🧪' },
-      { value: 'scale',   label: '大规模落地，已影响工作流',   emoji: '⚡' },
+      { value: 'nothing', label: 'AI？公司连提都不怎么提',                    emoji: '😴' },
+      { value: 'talk',    label: '开过几次 All-hands 讲 AI 战略，然后没了下文', emoji: '💬' },
+      { value: 'pilot',   label: '有些团队已经在试点，但还没影响到人的问题',   emoji: '🧪' },
+      { value: 'scale',   label: '大规模落地，已经有明显的人员或架构变化',     emoji: '⚡' },
     ],
   },
   {
@@ -399,10 +399,10 @@ export const questions: Question[] = [
     ariaMessage: '过去一年，你有没有明显感受到降本增效的压力？',
     type: 'single',
     options: [
-      { value: 'none',       label: '没有，业务还在扩张',     emoji: '📈' },
-      { value: 'occasional', label: '偶尔提到，没到裁员',     emoji: '🤷' },
-      { value: 'clear',      label: '明显感受到压力',         emoji: '😟' },
-      { value: 'layoff',     label: '已经有过裁员或缩编',     emoji: '📉' },
+      { value: 'none',       label: '没有，还在扩张招人',                     emoji: '📈' },
+      { value: 'occasional', label: '偶尔提到"提效"，但没到动人的程度',       emoji: '🤷' },
+      { value: 'clear',      label: '编制收紧，HC 审批越来越严',               emoji: '😟' },
+      { value: 'layoff',     label: '已经有裁员或缩编，身边有人走了',          emoji: '📉' },
     ],
   },
   {
@@ -418,10 +418,10 @@ export const questions: Question[] = [
     ariaMessage: '你有没有积累了一些独特的知识、人脉或资源，是短期内难以复制的？',
     type: 'single',
     options: [
-      { value: 'none', label: '暂时没想到有什么特别的',     emoji: '🤔' },
-      { value: 'some', label: '有一些，但不算稀缺',         emoji: '🌱' },
-      { value: 'key',  label: '有关键资源或深度专业知识',   emoji: '🔑' },
-      { value: 'rare', label: '行业稀缺，别人很难复制',     emoji: '💎' },
+      { value: 'none', label: '没有——换个人或者训练个 AI 都一样',   emoji: '🤔' },
+      { value: 'some', label: '有一些，但认真学半年应该能追上',       emoji: '🌱' },
+      { value: 'key',  label: '有，这些是真实的壁垒，不是自我感觉',  emoji: '🔑' },
+      { value: 'rare', label: '行业里这类人本来就少，我是其中之一',  emoji: '💎' },
     ],
   },
   {
@@ -429,11 +429,11 @@ export const questions: Question[] = [
     ariaMessage: '你自己目前使用 AI 工具的程度？',
     type: 'single',
     options: [
-      { value: 'never',   label: '没怎么用过',               emoji: '🚫' },
-      { value: 'aware',   label: '知道但没怎么动手',         emoji: '👀' },
-      { value: 'try',     label: '浅尝过几次',               emoji: '🌊' },
-      { value: 'daily',   label: '日常工作中会用',           emoji: '⚡' },
-      { value: 'rebuild', label: '已用 AI 重构了工作方式',   emoji: '🚀' },
+      { value: 'never',   label: '没用过，也没打算开始用',           emoji: '🚫' },
+      { value: 'aware',   label: '知道要学，但还没真正动手',         emoji: '👀' },
+      { value: 'try',     label: '偶尔用，但没形成习惯',             emoji: '🌊' },
+      { value: 'daily',   label: 'AI 已经进入我的日常工作了',        emoji: '⚡' },
+      { value: 'rebuild', label: '我在用 AI 重构自己的工作方式',     emoji: '🚀' },
     ],
   },
 
